@@ -2,10 +2,34 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table tr:first-child {
+    background-color: steelblue;
+    color: white;
+}
+
+table tr:nth-child(2n + 3) {
+    background-color: #aaa;
+}
+
+table {
+    font-size: 2.4rem;
+    border-collapse: separate;
+}
+
 h1 {
-    color: black;
-    font-size: 9.6rem;
-    font-weight: 100;
+    color: blueviolet;
+    font-size: 4.6rem;
+    font-weight: 900;
     text-align: center;
     background-color: rgb(227, 219, 235);
     font-style: oblique;
@@ -15,6 +39,19 @@ h1 {
 h2 {
     text-align: center;
     font-size: 3.2rem;
+}
+
+a {
+    font-size: 2.4rem;
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: blueviolet;
 }
 
 p {
@@ -32,4 +69,16 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+}
+
+ul, ol {
+    padding-left: 3.4rem;
+}
+
+ul {
+    list-style: lower-greek;
+}
+
+ol {
+    list-style: upper-roman;
 }
