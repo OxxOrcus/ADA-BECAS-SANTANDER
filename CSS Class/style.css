@@ -64,7 +64,7 @@ p {
     height: 500px;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    background-image: url('https://plus.unsplash.com/premium_photo-1699384428169-2b8a11e2ed77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1N3x8fGVufDB8fHx8fA%3D%3D');
+    background-image: url("https://images.unsplash.com/photo-1682685796766-0fddd3e480de?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -73,6 +73,7 @@ p {
 
 ul, ol {
     padding-left: 3.4rem;
+    text-align: center;
 }
 
 ul {
